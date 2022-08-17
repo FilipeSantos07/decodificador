@@ -1,0 +1,79 @@
+body {
+    background: rgba(241, 65, 65, 0.329);
+    font-family: 'Square Peg', cursive;
+}
+h1 {
+    color: rgb(248, 42, 42);
+    font-size: 80px;   
+    margin: 20px 0 0 0;
+}
+h2 {
+    font-size: 50px;
+    color: rgb(248, 88, 88);
+    margin: 0 0 40px 0;
+}
+.titulo2 {
+    margin-top: -16px;
+}
+header {
+    text-align: center;
+}
+main li {
+    list-style-type: none;
+    text-align: center;
+    z-index: 1;
+
+}
+main textarea {
+    display: block;
+    width: 235px;
+    height: 270px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 5px;
+}
+main ul {
+    display: flex;
+    justify-content: center;
+}
+main input {
+    background: rgb(245, 13, 13);
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: square peg;
+    color: white;
+}
+.imgcoracao {
+    position: absolute;
+    top: 135px;
+    left: 60px;
+    z-index: 0;
+}
+footer {
+    text-align: center;
+    
+}
+footer p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(245, 13, 13);
+    font-size: 20px; 
+    margin-top: 70px;
+}
+
+@media screen and (max-width:1320px) {
+   .imgcoracao {
+    display: none;
+   }
+   main ul {
+    display: grid;
+    padding: 0;
+   }
+   main textarea {
+    width: 267px;
+   }
+   #textarea2 {
+    margin-top: 20px;
+   }
+}
