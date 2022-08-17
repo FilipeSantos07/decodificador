@@ -1,19 +1,19 @@
 body {
     background: rgba(241, 65, 65, 0.329);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Square Peg', cursive;
 }
 h1 {
     color: rgb(248, 42, 42);
-    font-size: 50px;   
+    font-size: 80px;   
     margin: 20px 0 0 0;
 }
 h2 {
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(248, 88, 88);
     margin: 0 0 40px 0;
 }
 .titulo2 {
-    margin-top: px;
+    margin-top: -16px;
 }
 header {
     text-align: center;
@@ -40,8 +40,8 @@ main ul {
 main input {
     background: rgb(245, 13, 13);
     border-radius: 20px;
-    font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-family: square peg;
     color: white;
 }
 .imgcoracao {
