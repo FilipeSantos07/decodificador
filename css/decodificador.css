@@ -37,7 +37,7 @@ main ul {
     display: flex;
     justify-content: center;
 }
-main input {
+main button {
     background: rgb(245, 13, 13);
     border-radius: 20px;
     font-size: 25px;
