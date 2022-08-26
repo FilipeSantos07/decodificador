@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/heart.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/decodificador.css">
@@ -18,22 +18,22 @@
     </header>
 
     <main>
-         <form action="">
+         
              <ul>
                 <div class="imgcoracao">
                     <img src="img/coracaobrilhante-removebg-preview.png" alt="">
                 </div>
                 <li>
-                    <textarea id="textarea1" cols="30" rows="10" placeholder="Conte-me seus segredos..." ></textarea>
-                    <button onclick="jogartextoarea2()" id="botao1">Criptografar</button>
-                    <button id="botao2">Descriptografar</button>
+                    <textarea id="texto-entrada" cols="30" rows="10" placeholder="Conte-me seus segredos..." ></textarea>
+                    <button onclick="encriptar()" id="botao1">Criptografar</button>
+                    <button id="botao2" onclick="descriptografar()">Descriptografar</button>
                 </li>
                 <li>
-                    <textarea id="textarea2" cols="30" rows="10"></textarea>
+                    <textarea id="texto-saida" cols="30" rows="10"></textarea>
                     <button onclick="copiar()" id="botao3">Copiar</button>
                 </li>
             </ul>
-         </form>
+         
     </main>
 
     <footer>
