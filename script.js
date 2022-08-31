@@ -32,8 +32,10 @@ function descriptografar() {
 
 
 function copiar() {
+    var inputText = document.querySelector("#texto-entrada")
     var outputText = document.querySelector("#texto-saida");
     outputText.select();
     navigator.clipboard.writeText(outputText.value);
     outputText.value = "";
+    inputText.value = "";
     }
