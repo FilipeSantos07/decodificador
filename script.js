@@ -1,7 +1,9 @@
-function encriptar() {
-  var inputText = document.querySelector("#texto-entrada");
-  var outputText = document.querySelector("#texto-saida");
+var inputText = document.querySelector("#texto-entrada");
+inputText.focus()
+var outputText = document.querySelector("#texto-saida");
 
+function encriptar() {
+  
   var texto = inputText.value.toLowerCase();
   
   var textoCriptografado = texto
@@ -14,8 +16,6 @@ function encriptar() {
   outputText.value = textoCriptografado;
 }
 function descriptografar() {
-  var inputText = document.querySelector("#texto-entrada");
-  var outputText = document.querySelector("#texto-saida");
 
   var texto = inputText.value.toLowerCase();
 
@@ -28,14 +28,10 @@ function descriptografar() {
 
   outputText.value = textoDescriptografado
 }
-
-
-
 function copiar() {
-    var inputText = document.querySelector("#texto-entrada")
-    var outputText = document.querySelector("#texto-saida");
     outputText.select();
     navigator.clipboard.writeText(outputText.value);
     outputText.value = "";
     inputText.value = "";
+    inputText.focus()
     }
