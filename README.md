@@ -4,7 +4,7 @@
 
 > Desafio da Alura
 
-Criei esse decodificador com base no que Alura tinha proposto, que era criptografar/descriptografar e copiar o texto com o click de um botão. 
+Esse decodificador foi um desafio da Alura. Criei com base no que nos foi proposto, que era criptografar/descriptografar e copiar o texto com o click de um botão. 
 As letras são substituídas da seguinte forma:
 
 "e" para "enter"
